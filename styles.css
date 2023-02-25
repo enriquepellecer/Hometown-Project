@@ -1,0 +1,172 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    
+    text-align: center;
+    background: linear-gradient(#79AC30, white);
+    border-radius: 5px;
+    
+}
+#hero{
+    background-image: url("images/tikal2.webp");
+    background-size: cover;
+    padding: 10px 0 350px 0;
+}
+.logogt{
+    margin: 10px 0px 0px -900px;
+    border-radius: 10px;
+}
+h1{
+    color: #a8dadc;
+    font-size: 4rem;    
+    text-shadow: 4px 2px 0px #242114;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+.remark{
+    color: white;
+}
+h2{
+    color: white;
+    text-shadow: 3px 2px 0px #242114;
+    margin: 0px 150px 150px 150px;
+    font-size: 2.5rem;
+    font-family: 'Handlee', cursive;
+}
+#activity-title{
+    margin: 100px 0px;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#header{
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;       
+}
+.tour-img1{
+    width: 250px;
+    height: 250px;
+    background-image: url("images/volcan.webp");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: -100px;
+       
+}
+.tour-img2{
+    width: 250px;
+    height: 250px;
+    background-image: url("images/pana.webp");
+    background-size: cover;
+    border-radius: 50%;
+    margin: -250px 250px       
+}
+.tour-img3{
+    width: 250px;
+    height: 250px;
+    background-image: url("images/nature.webp");
+    background-size: cover;
+    border-radius: 50%;
+    margin: -150px 600px; 
+}
+.tour-img1:hover {
+    background-image: url("images/volcan2.1.webp");
+}
+
+.tour-img2:hover {
+    background-image: url("images/atitlan.jpg");
+}
+
+.tour-img3:hover {
+    background-image: url("images/tikal.jpg");
+    
+}
+#activity-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.hike-description{
+    color: black;
+    margin: -400px 0px 20px -750px;
+    text-shadow: 3px 2px 0px #3888B9;     
+}
+.lake-description{
+    color: black;
+    margin: -420px -20px 20px -40px;
+    text-shadow: 3px 2px 0px #3888B9;      
+}
+.nature-description{
+    color: black;
+    margin: -440px -700px 20px -30px;
+    text-shadow: 3px 2px 0px #3888B9;      
+}
+.description{
+    color: black;
+    margin: -10px 0px 100px -750px;
+     
+}
+.description2{
+    color: black;
+    margin: -10px -40px 100px -50px;
+    
+}
+.description3{
+    color: black;
+    margin: -10px -730px 100px -50px;
+   
+}
+
+      /*Here I started the card*/
+      
+
+.card{
+    width: 500px;
+    height: 300px;
+    margin: -300px 200px 50px 400px;
+    padding: 20px 20px;
+    background: #112A46;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+    border-bottom: 10px solid #ACC8E5;
+}
+.guide-description{
+    text-align: justify;
+    padding: 20px 20px;
+    margin-left: 50px;
+  
+}
+.guide-title{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: #ACC8E5;
+    text-shadow: 2px 2px 0px black;
+    font-size: 2.5rem;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+.title-name{
+    font-size: 1.5em;
+    margin-top: -10px;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.card-img {
+    width: 150px;
+    border: 1.5px solid white;
+    border-radius: 10px; 
+}
